@@ -14,7 +14,7 @@ namespace CelebrationReminderAPI.Models
         public string PasswordHash { get; set; }
         public int CountryId { get; set; }
         [Required]
-        public int Role { get; set; }
+        public int RoleId { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
