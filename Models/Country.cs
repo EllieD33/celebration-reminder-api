@@ -1,0 +1,12 @@
+using System.Collections.Generic;
+
+namespace CelebrationReminderAPI.Models
+{
+    public class Country
+    {
+        public int CountryId {get; set; }
+        public string CountryName { get; set; }
+
+        public ICollection<User> Users { get; set; } = new List<User>();
+    }
+}
