@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace CelebrationReminderAPI.Models
 {
     public class User
