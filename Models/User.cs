@@ -12,10 +12,13 @@ namespace CelebrationReminderAPI.Models
         public string Email { get; set; }
         [Required]
         public string PasswordHash { get; set; }
-        public int CountryId { get; set; } 
+        public int CountryId { get; set; }
+        [Required]
+        public int Role { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
         public Country Country { get; set; }
+        public Role Role { get; set; }
     }
 }
