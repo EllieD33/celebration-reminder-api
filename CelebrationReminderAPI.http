@@ -1,0 +1,6 @@
+@CelebrationReminderAPI_HostAddress = http://localhost:5078
+
+GET {{CelebrationReminderAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
