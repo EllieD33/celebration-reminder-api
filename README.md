@@ -1,9 +1,3 @@
-For a work-in-progress (WIP) README, you'll want to clearly communicate the current state of the project, what has been accomplished, and what is yet to be done. Here’s a basic structure you can follow:
-
-### README for Celebration Reminder API
-
----
-
 ## Celebration Reminder API
 
 **Status:** 🚧 Work in Progress
