@@ -5,7 +5,6 @@ namespace CelebrationReminderAPI.Models
     public class Contact
     {
         public int ContactId { get; set; }
-        [Required]
         public int UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
