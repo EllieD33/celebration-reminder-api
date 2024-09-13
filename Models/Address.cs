@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace CelebrationReminderAPI.Models
 {
@@ -17,5 +18,6 @@ namespace CelebrationReminderAPI.Models
         public int CountryId { get; set; }
 
         public Country Country { get; set; }
+        public ICollection<Contact> Contacts { get; set; } = new List<Contact>();
     }
 }
