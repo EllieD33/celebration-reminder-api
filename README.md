@@ -2,7 +2,7 @@
 
 **Status:** 🚧 Work in Progress
 
-Welcome to the Celebration Reminder API project! This API is being developed to manage and track celebrations, reminders, and related data. It’s designed to provide a backend for applications that help users keep track of important events, such as birthdays, anniversaries, and other special occasions.
+Welcome to my Celebration Reminder API project! This API is being developed to manage and track celebrations, reminders, and related data. It’s designed to provide a backend for an application that help users keep track of important events, such as birthdays, anniversaries, and other special occasions.
 
 ### Features
 
