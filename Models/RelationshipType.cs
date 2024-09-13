@@ -2,10 +2,10 @@ using System.Collections.Generic;
 
 namespace CelebrationReminderAPI.Models
 {
-    public class Relationship
+    public class RelationshipType
     {
-        public int RelationshipId { get; set; }
-        public string Relationship { get; set; }
+        public int RelationshipTypeId { get; set; }
+        public string RelationshipType { get; set; }
 
         public ICollection<Contact> Contacts { get; set; } = new List<Contact>();
     }

@@ -14,10 +14,10 @@ namespace CelebrationReminderAPI.Models
         [EmailAddress]
         public string EmailAddress { get; set; }
         public int AddressId { get; set; }
-        public int RelationshipId { get; set; }
+        public int RelationshipTypeId { get; set; }
 
         public User User { get; set; }
         public Address Address { get; set; }
-        public Relationship Relationship { get; set; }
+        public RelationshipType RelationshipType { get; set; }
     }
 }
