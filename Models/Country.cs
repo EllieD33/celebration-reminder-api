@@ -8,5 +8,6 @@ namespace CelebrationReminderAPI.Models
         public string CountryName { get; set; }
 
         public ICollection<User> Users { get; set; } = new List<User>();
+        public ICollection<Address> Addresses { get; set; } = new List<Address>();
     }
 }
