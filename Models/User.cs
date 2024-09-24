@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace CelebrationReminderAPI.Models
 {
@@ -19,5 +20,6 @@ namespace CelebrationReminderAPI.Models
 
         public Country Country { get; set; }
         public Role Role { get; set; }
+        public ICollection<Event> Events { get; set; } = new List<Event>();
     }
 }
