@@ -7,11 +7,16 @@ namespace CelebrationReminderAPI.Models
         public int ContactId { get; set; }
         public int UserId { get; set; }
         [Required]
+        [StringLength(50)]
         public string FirstName { get; set; }
+        [StringLength(50)]
         public string LastName { get; set; }
+        [StringLength(50)]
         public string Nickname { get; set; }
+        [StringLength(15)]
         public string PhoneNumber { get; set; }
         [EmailAddress]
+        [StringLength(254)]
         public string EmailAddress { get; set; }
         public int AddressId { get; set; }
         public int RelationshipTypeId { get; set; }
