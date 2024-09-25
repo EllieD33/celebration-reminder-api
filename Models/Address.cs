@@ -7,13 +7,19 @@ namespace CelebrationReminderAPI.Models
     {
         public int AddressId { get; set; }
         [Required]
+        [StringLength(150)]
         public string StreetLine1 { get; set; }
+        [StringLength(150)]
         public string StreetLine2 { get; set; }
+        [StringLength(150)]
         public string StreetLine3 { get; set; }
         [Required]
+        [StringLength(50)]
         public string City { get; set; }
+        [StringLength(50)]
         public string State { get; set; }
         [Required]
+        [StringLength(15)]
         public string PostalCode { get; set; }
         public int CountryId { get; set; }
 
