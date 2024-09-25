@@ -7,11 +7,14 @@ namespace CelebrationReminderAPI.Models
     {
         public int UserId { get; set; }
         [Required]
+        [StringLength(50)]
         public string Username { get; set; }
         [Required]
         [EmailAddress]
+        [StringLength(254)]
         public string Email { get; set; }
         [Required]
+        [StringLength(128)]
         public string PasswordHash { get; set; }
         public int CountryId { get; set; }
         public int RoleId { get; set; }
