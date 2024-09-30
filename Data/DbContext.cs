@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using CelebrationReminderAPI.Models;
 
 namespace CelebrationReminderAPI.Data
 {
